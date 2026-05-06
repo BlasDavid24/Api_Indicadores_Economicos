@@ -1,0 +1,78 @@
+.titulo_web {
+  user-select: none;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/014/772/933/non_2x/abstract-background-of-stock-market-candlestick-graph-with-economic-indicators-table-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.h1_Divi {
+  color: rgb(106, 9, 9);
+  font-weight: bold;
+  padding: 10px;
+  border-top: 3px solid rgb(106, 9, 9);
+  border-bottom: 3px solid rgb(106, 9, 9);
+  display: inline-block;
+}
+
+.uf-icon {
+  font-size: 7.3rem;
+  font-weight: bold;
+  color: #212529;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sub_ti {
+  color: rgb(106, 9, 9);
+  text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+  font-size: x-large;
+}
+
+.space {
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+/*FONDO DE LAR TARJETAS*/
+
+.diseño_card {
+  background: linear-gradient(
+    135deg,
+    rgb(80, 88, 140),
+    rgb(58, 64, 104),
+    rgb(40, 45, 85),
+    rgb(58, 64, 104),
+    rgb(80, 88, 140)
+  );
+  border-radius: 5%;
+}
+
+.letra-metal {
+  background: linear-gradient(
+    45deg,
+    #8b0000,
+    #ff0000,
+    #b22222,
+    #ff6347,
+    #8b0000
+  );
+}
+
+#indicador-Eco {
+  width: 100% !important; /* que ocupe todo el ancho del contenedor */
+  max-width: 900px; /* máximo ancho si quieres limitar */
+  height: auto !important; /* que la altura se ajuste proporcionalmente */
+  max-height: 400px; /* máximo alto para que no sea muy alto */
+  display: block; /* evita espacio abajo por ser inline canvas */
+  margin: 0 auto; /* opcional, centrar horizontalmente */
+}
+
+.div-graf {
+  display: none;
+  max-width: 100%;
+  margin: auto;
+}
